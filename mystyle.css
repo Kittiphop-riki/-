@@ -1,0 +1,67 @@
+/* กำหนดสีโทนสว่าง: ฟ้าและครีม */
+body {
+    background-color: #FFFDD0; /* สีครีมพื้นหลัง */
+    color: #333333;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* แถบเมนูด้านบน สีฟ้าสว่าง */
+.top-header {
+    background-color: #87CEEB; /* สีฟ้าสว่าง */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-header a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-header a:hover {
+    color: #ffffff;
+}
+
+/* การตกแต่งรูปภาพสินค้า */
+img {
+    width: auto;
+    height: 25%;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 5px solid #deb887;
+}
+
+/* ปุ่มกด */
+.button {
+    display: inline-block;
+    color: white;
+    background-color: #4682B4; /* สีฟ้าเข้มข้นขึ้นเล็กน้อยสำหรับปุ่ม */
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    margin-left: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #31587a;
+}
+
+/* ฟุตเตอร์ */
+.button-footer {
+    background-color: #87CEEB;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    color: #003366;
+}
+
+
+
+
